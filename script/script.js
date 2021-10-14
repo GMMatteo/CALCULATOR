@@ -33,10 +33,10 @@ function press(num) {
 }
 
 function setOP(calc) {
-  if (n1 === '') return
-  if (n2 !== '') {
-    calculate()
-  }
+  // if (n1 === '') return
+  // if (n2 !== '') {
+  //   calculate()
+  // }
   answer = calc;
   n2 = n1;
   n1 = "";
@@ -48,5 +48,7 @@ function clr() {
   answer = "";
   displayDiv.innerText = "0.0";
 }
+
+
 
 
